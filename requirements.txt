@@ -1,0 +1,15 @@
+# ==== Core Framework ====
+streamlit==1.36.0        # Core UI library
+requests==2.32.3          # For backend REST calls
+
+# ==== Performance & Helpers ====
+pandas==2.2.2             # Handy for tabular display (optional for JSON data)
+numpy==1.26.4             
+
+# ==== Theming and Markdown rendering ====
+markdown-it-py==3.0.0
+Pygments==2.17.2
+
+# ==== Optional Extras (feel, icons, etc.) ====
+python-dotenv==1.0.1      # To read .env if you parameterize URLs
+watchdog==4.0.1           # Streamlit file watcher

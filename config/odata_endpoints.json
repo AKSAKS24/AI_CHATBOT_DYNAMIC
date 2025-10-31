@@ -1,0 +1,49 @@
+{
+    "Services": {
+        "SalesOrderService": {
+            "Entities": {
+                "SalesOrders": {
+                    "Fields": [
+                        "OrderID",
+                        "CustomerName",
+                        "OrderDate",
+                        "Amount",
+                        "Status"
+                    ]
+                },
+                "SalesOrderItems": {
+                    "Fields": [
+                        "ItemID",
+                        "OrderID",
+                        "ProductID",
+                        "Quantity",
+                        "Price"
+                    ]
+                }
+            }
+        },
+        "CustomerService": {
+            "Entities": {
+                "Customers": {
+                    "Fields": [
+                        "CustomerID",
+                        "Name",
+                        "Region",
+                        "Email",
+                        "Phone"
+                    ]
+                },
+                "CustomerAddresses": {
+                    "Fields": [
+                        "AddressID",
+                        "CustomerID",
+                        "Street",
+                        "City",
+                        "PostalCode",
+                        "Country"
+                    ]
+                }
+            }
+        }
+    }
+}
